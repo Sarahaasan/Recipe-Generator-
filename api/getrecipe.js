@@ -9,7 +9,7 @@ add emojis relevant to the recipe
 `;
 
 export default async function handler(req, res) {
-  // Only allow POST requests
+ 
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Only POST allowed" });
   }
@@ -29,7 +29,7 @@ export default async function handler(req, res) {
     });
 
     const response = await groq.chat.completions.create({
-      model: "mixtral-8x7b-32768",
+      model: "openai/gpt-oss-120b",
       messages: [
         {
           role: "system",
