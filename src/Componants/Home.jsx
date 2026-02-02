@@ -3,8 +3,7 @@ import "../App.css";
 import { useState , useRef , useEffect } from "react";
 import Ingrediants from "./Ingrediants.jsx";
 import RecipeResult from "./RecipeResult.jsx";
-// api call
-import { getRecipeFromMistral } from "../../api/getrecipe.js";
+import { getRecipeFromGroq } from "../utils/recipeApi"; 
 
 const Home = () => {
   const [ingrediants, setIngrediants] = useState([]);
@@ -47,7 +46,7 @@ const Home = () => {
  
     try {
       setRecipe("Generating recipe...");
-      const result = await getRecipeFromMistral(ingrediants);
+      const result = await getRecipeFromGroq(ingrediants);
  
       setRecipe(result);
     } catch {
