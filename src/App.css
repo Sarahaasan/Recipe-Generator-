@@ -1,0 +1,102 @@
+
+header 
+{
+  border-bottom-left-radius:12px ;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+input:focus {
+  outline: 2px solid orange;
+}
+input 
+{
+  flex-grow: 1;
+  min-width: 350px;
+  max-width: 35%;
+}
+
+input :placeholder-shown {
+  outline: none;
+}
+
+.toggle
+{
+  position: absolute;
+  right: 24px ;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.data
+{
+  width: 50%;
+  margin: 12px auto;
+}
+.data h1 
+{
+ 
+  color: orange;
+}
+/* get-recipe */
+.get-recipe
+{
+      
+    border-radius: 8px;
+    background: #F0EFEB;
+    padding: 10px 28px;
+  
+}
+.get-recipe h3 
+{
+      font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+.get-recipe p 
+{
+  align-items: center;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+.get-recipe button
+{
+      border-radius: 6px;
+    background: #D17557;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #FAFAF8;
+    padding: 9px 17px;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+/*  */
+.suggested-recipe-container {
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+    margin-bottom: 10px;
+}
+/*  */
+.instructions
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+ z-index: 1;
+background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 32rem;
+  color: #1f2937;
+  box-sizing: border-box;
+}
