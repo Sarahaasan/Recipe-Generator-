@@ -3,8 +3,6 @@ import "../App.css";
 import { useState , useRef , useEffect } from "react";
 import Ingrediants from "./Ingrediants.jsx";
 import RecipeResult from "./RecipeResult.jsx";
-// api call
-import { getRecipeFromMistral } from "../../api/getrecipe.js";
 
 const Home = () => {
   const [ingrediants, setIngrediants] = useState([]);
