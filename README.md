@@ -26,7 +26,6 @@ A smart web application that suggests recipes based on ingredients you have at h
 
 ### AI
 - **Groq API** - AI provider
-- **openai/gpt-oss-120b** - AI model
 
 ### Deployment & Version Control
 - **Vercel** - Hosting (frontend + backend)
