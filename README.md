@@ -31,10 +31,4 @@ A smart web application that suggests recipes based on ingredients you have at h
 - **Vercel** - Hosting (frontend + backend)
 - **GitHub** - Version control
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-- Groq API key
-### live demo --> https://recipe-generator-hqvl.vercel.app/
+### live demo 🤩 --> https://recipe-generator-hqvl.vercel.app/
